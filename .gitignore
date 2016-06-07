@@ -3,3 +3,7 @@
 ################################################################################
 
 /LeetCode/obj/Debug
+/LeetCode/bin/Debug
+/.vs/LeetCode/v14/.suo
+/LeetCode.Test/bin/Debug
+/LeetCode.Test/obj/Debug
