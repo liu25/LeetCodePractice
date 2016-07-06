@@ -46,14 +46,19 @@
   <ItemGroup>
     <Compile Include="Problem102Test.cs" />
     <Compile Include="Problem114Test.cs" />
+    <Compile Include="Problem122Test.cs" />
     <Compile Include="Problem137Test.cs" />
     <Compile Include="Problem142Test.cs" />
+    <Compile Include="Problem162Test.cs" />
+    <Compile Include="Problem166Test.cs" />
     <Compile Include="Problem168Test.cs" />
     <Compile Include="Problem209Test.cs" />
     <Compile Include="Problem242Test.cs" />
+    <Compile Include="Problem268Test.cs" />
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem316Test.cs" />
     <Compile Include="Problem319Test.cs" />
+    <Compile Include="Problem37Test.cs" />
     <Compile Include="Problem4Test.cs" />
     <Compile Include="Problem51Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
