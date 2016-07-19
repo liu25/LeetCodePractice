@@ -49,10 +49,13 @@
     <Compile Include="Problem122Test.cs" />
     <Compile Include="Problem137Test.cs" />
     <Compile Include="Problem142Test.cs" />
+    <Compile Include="Problem14Test.cs" />
     <Compile Include="Problem162Test.cs" />
     <Compile Include="Problem166Test.cs" />
     <Compile Include="Problem168Test.cs" />
+    <Compile Include="Problem17Test.cs" />
     <Compile Include="Problem209Test.cs" />
+    <Compile Include="Problem228Test.cs" />
     <Compile Include="Problem242Test.cs" />
     <Compile Include="Problem268Test.cs" />
     <Compile Include="Problem2Test.cs" />
@@ -61,6 +64,7 @@
     <Compile Include="Problem37Test.cs" />
     <Compile Include="Problem4Test.cs" />
     <Compile Include="Problem51Test.cs" />
+    <Compile Include="Prodblem152Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
