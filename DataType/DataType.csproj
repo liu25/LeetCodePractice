@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{B3054676-E482-401B-8180-83BD52786BFE}</ProjectGuid>
+    <ProjectGuid>{C08AB7E4-42D6-4142-B0CD-B8897810B779}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LeetCode.Test</RootNamespace>
-    <AssemblyName>LeetCode.Test</AssemblyName>
+    <RootNamespace>DataType</RootNamespace>
+    <AssemblyName>DataType</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -30,10 +30,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="nunit.framework, Version=3.2.1.0, Culture=neutral, PublicKeyToken=2638cd05610744eb, processorArchitecture=MSIL">
-      <HintPath>..\packages\NUnit.3.2.1\lib\net45\nunit.framework.dll</HintPath>
-      <Private>True</Private>
-    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -44,47 +40,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Problem102Test.cs" />
-    <Compile Include="Problem114Test.cs" />
-    <Compile Include="Problem122Test.cs" />
-    <Compile Include="Problem130Test.cs" />
-    <Compile Include="Problem137Test.cs" />
-    <Compile Include="Problem142Test.cs" />
-    <Compile Include="Problem143Test.cs" />
-    <Compile Include="Problem14Test.cs" />
-    <Compile Include="Problem162Test.cs" />
-    <Compile Include="Problem165Test.cs" />
-    <Compile Include="Problem166Test.cs" />
-    <Compile Include="Problem168Test.cs" />
-    <Compile Include="Problem17Test.cs" />
-    <Compile Include="Problem199Test.cs" />
-    <Compile Include="Problem209Test.cs" />
-    <Compile Include="Problem227Test.cs" />
-    <Compile Include="Problem228Test.cs" />
-    <Compile Include="Problem242Test.cs" />
-    <Compile Include="Problem268Test.cs" />
-    <Compile Include="Problem2Test.cs" />
-    <Compile Include="Problem312Test.cs" />
-    <Compile Include="Problem316Test.cs" />
-    <Compile Include="Problem319Test.cs" />
-    <Compile Include="Problem37Test.cs" />
-    <Compile Include="Problem4Test.cs" />
-    <Compile Include="Problem51Test.cs" />
-    <Compile Include="Problem55Test.cs" />
-    <Compile Include="Problem65Test.cs" />
-    <Compile Include="Problem70Test.cs" />
-    <Compile Include="Problem74Test.cs" />
-    <Compile Include="Prodblem152Test.cs" />
+    <Compile Include="MultiValueDictionary.cs" />
+    <Compile Include="LinkedList.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\LeetCode\LeetCode.csproj">
-      <Project>{7dd4907f-a865-45f6-9214-a7246d75d7d7}</Project>
-      <Name>LeetCode</Name>
-    </ProjectReference>
+    <Compile Include="Stack.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

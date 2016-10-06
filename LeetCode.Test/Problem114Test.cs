@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace LeetCode.Test
 {
@@ -18,12 +13,12 @@ namespace LeetCode.Test
             problem114.Flatten(GetTree());
         }
 
-        private TreeNode GetTree()
+        private Problem114.TreeNode GetTree()
         {
-            return new TreeNode(1)
+            return new Problem114.TreeNode(1)
             {
-                left = new TreeNode(2),
-                right = new TreeNode(3)
+                left = new Problem114.TreeNode(2),
+                right = new Problem114.TreeNode(3)
             };
         }
     }
