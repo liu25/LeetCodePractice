@@ -8,7 +8,7 @@ namespace DataType
         {
             public Node Next {get; set;}
 			
-            public T Value {get; private set;}
+            public T Value {get; }
 			
             public Node(T value)
             {
@@ -20,10 +20,8 @@ namespace DataType
 		
         public void AddToFront(T data)
         {
-            Node node = new Node(data);
-			
-            node.Next = _head;
-			
+            Node node = new Node(data) {Next = _head};
+
             _head = node;
         }
 		

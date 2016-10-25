@@ -49,6 +49,7 @@
     <Compile Include="Problem122Test.cs" />
     <Compile Include="Problem130Test.cs" />
     <Compile Include="Problem137Test.cs" />
+    <Compile Include="Problem13Test.cs" />
     <Compile Include="Problem142Test.cs" />
     <Compile Include="Problem143Test.cs" />
     <Compile Include="Problem14Test.cs" />
@@ -61,19 +62,29 @@
     <Compile Include="Problem209Test.cs" />
     <Compile Include="Problem227Test.cs" />
     <Compile Include="Problem228Test.cs" />
+    <Compile Include="Problem234Test.cs" />
     <Compile Include="Problem242Test.cs" />
     <Compile Include="Problem268Test.cs" />
+    <Compile Include="Problem273Test.cs" />
     <Compile Include="Problem2Test.cs" />
     <Compile Include="Problem312Test.cs" />
     <Compile Include="Problem316Test.cs" />
     <Compile Include="Problem319Test.cs" />
     <Compile Include="Problem37Test.cs" />
+    <Compile Include="Problem390Test.cs" />
+    <Compile Include="Problem394Test.cs" />
+    <Compile Include="Problem39Test.cs" />
+    <Compile Include="Problem402Test.cs" />
     <Compile Include="Problem4Test.cs" />
     <Compile Include="Problem51Test.cs" />
     <Compile Include="Problem55Test.cs" />
     <Compile Include="Problem65Test.cs" />
     <Compile Include="Problem70Test.cs" />
+    <Compile Include="Problem73Test.cs" />
     <Compile Include="Problem74Test.cs" />
+    <Compile Include="Problem7Test.cs" />
+    <Compile Include="Problem91Test.cs" />
+    <Compile Include="Problem94Test.cs" />
     <Compile Include="Prodblem152Test.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
